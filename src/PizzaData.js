@@ -1,8 +1,3 @@
-import "./index.css";
-import Header from "./Header";
-import Menu from "./Menu";
-import Footer from "./Footer";
-
 const pizzaData = [
   {
     name: "Focaccia",
@@ -48,14 +43,4 @@ const pizzaData = [
   },
 ];
 
-const pizzaData2 = [];
-
-export default function App() {
-  return (
-    <>
-      <Header />
-      <Menu pizzaData={pizzaData} />
-      <Footer />
-    </>
-  );
-}
+export { pizzaData };
